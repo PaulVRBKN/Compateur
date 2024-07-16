@@ -179,6 +179,7 @@ def on_button_click():
 # # # Création de la fenêtre principale
 fenetre = tk.Tk()
 fenetre.title("Compacteur")
+fenetre.geometry('600x600')
 
 # # # Création d'un bouton
 bouton = tk.Button(fenetre, text="Compacter", command=on_button_click)
